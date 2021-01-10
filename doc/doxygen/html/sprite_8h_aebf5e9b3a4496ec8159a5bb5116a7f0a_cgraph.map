@@ -1,0 +1,4 @@
+<map id="draw_cursor_sprite" name="draw_cursor_sprite">
+<area shape="rect" id="node1" title="Draws cursor sprite in the position given by the x and y elements." alt="" coords="5,5,136,32"/>
+<area shape="rect" id="node2" href="$group__video__gr.html#ga78bb98b213384943323ab5d7c6cdb573" title="paints the pixel in that x and y position in the screen" alt="" coords="184,5,287,32"/>
+</map>

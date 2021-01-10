@@ -1,0 +1,5 @@
+<map id="read_date" name="read_date">
+<area shape="rect" id="node1" title="read date from the rtc registers" alt="" coords="5,31,84,57"/>
+<area shape="rect" id="node2" href="$group__rtc_vars.html#ga300b9c55ded07a40391ec94f6f047065" title="convert given bcd number to decimal number" alt="" coords="132,5,265,32"/>
+<area shape="rect" id="node3" href="$utils_8c.html#a79a031a8611f5b2d6afa4158e92b0fb4" title=" " alt="" coords="153,56,244,83"/>
+</map>

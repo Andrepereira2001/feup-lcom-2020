@@ -1,0 +1,5 @@
+<map id="draw_menu_sprite" name="draw_menu_sprite">
+<area shape="rect" id="node1" title="Draws sprite in the position given by the x and y arguments." alt="" coords="5,31,132,57"/>
+<area shape="rect" id="node2" href="$group__video__gr.html#ga59b8bc184035b459a3b61ade2b835aeb" title="Get the max x of the buffer." alt="" coords="188,5,275,32"/>
+<area shape="rect" id="node3" href="$group__video__gr.html#ga78bb98b213384943323ab5d7c6cdb573" title="paints the pixel in that x and y position in the screen" alt="" coords="180,56,283,83"/>
+</map>

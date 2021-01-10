@@ -1,0 +1,10 @@
+<map id="check_claw_changes" name="check_claw_changes">
+<area shape="rect" id="node1" title="updates claw speed and positions upon car moves" alt="" coords="843,42,989,69"/>
+<area shape="rect" id="node2" href="$sprite_8h.html#ac6bf330546ad3041f28137d976dfa0dd" title="handles every move, animation and collisions of every sprite on game" alt="" coords="652,5,783,47"/>
+<area shape="rect" id="node7" href="$sprite_8h.html#adc6632ac401a698b092a1fc146d14603" title="handles every move, animation and collisions of every sprite on game" alt="" coords="640,71,795,98"/>
+<area shape="rect" id="node3" href="$state__machine_8h.html#a6f594055811de08297e195fb8610d32c" title="handles multiplayer game changes" alt="" coords="449,5,580,47"/>
+<area shape="rect" id="node4" href="$group__game.html#gaaeeaa634eac815915c1307850128fa6a" title="handle timer interrupts" alt="" coords="289,42,389,69"/>
+<area shape="rect" id="node5" href="$group__game.html#ga25300199ba6cf6bfe2f16998384874b7" title="check all th interrupts while the game is running and make changes" alt="" coords="163,42,241,69"/>
+<area shape="rect" id="node6" href="$proj_8c.html#a90aad768b0a0b41e4bcacc566b0cae6e" title="project main loop used to run the programs" alt="" coords="5,42,115,69"/>
+<area shape="rect" id="node8" href="$state__machine_8h.html#a94abc7e9cf89b91e8a5b71abbbdb4b80" title="depending of the game state the function will make there changes" alt="" coords="437,71,592,98"/>
+</map>

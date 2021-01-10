@@ -1,0 +1,7 @@
+<map id="game_end" name="game_end">
+<area shape="rect" id="node1" title="&#45;unscribe all the interrupts , unload sprites, and return to text mode" alt="" coords="5,56,88,83"/>
+<area shape="rect" id="node2" href="$sprite_8c.html#a8fdbc6c7bfca3ef4a8800a3cdc19d932" title="destroys every sprite ever created" alt="" coords="139,31,250,57"/>
+<area shape="rect" id="node5" href="$video__gr_8c.html#a2b66d5baf4612c2b79d4c487ab5cdaeb" title="this function free all the memory alocated to the background buffer and second buffer" alt="" coords="136,81,253,108"/>
+<area shape="rect" id="node3" href="$sprite_8c.html#a294d75f67e89b88021ed206de9da0f00" title="Destroys and Frees the mem used with this Sprite." alt="" coords="301,5,444,32"/>
+<area shape="rect" id="node4" href="$sprite_8c.html#af16c6befaac9ffb673b9e3c798d542ed" title="Destroys and Frees the mem used with this Sprite." alt="" coords="321,56,425,83"/>
+</map>

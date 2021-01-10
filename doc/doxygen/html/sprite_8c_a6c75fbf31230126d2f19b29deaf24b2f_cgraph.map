@@ -1,0 +1,4 @@
+<map id="draw_sprite" name="draw_sprite">
+<area shape="rect" id="node1" title="Draws sprite in the position given by the x and y elements." alt="" coords="5,5,93,32"/>
+<area shape="rect" id="node2" href="$group__video__gr.html#ga78bb98b213384943323ab5d7c6cdb573" title="paints the pixel in that x and y position in the screen" alt="" coords="141,5,244,32"/>
+</map>

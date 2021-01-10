@@ -1,0 +1,15 @@
+<map id="copy_background_buffer" name="copy_background_buffer">
+<area shape="rect" id="node1" title="copy data of background buffer to second buffer" alt="" coords="872,183,1035,209"/>
+<area shape="rect" id="node2" href="$sprite_8h.html#a461ffe91d5eff77e9cd6be0c4b29e986" title="draws every sprite active on the game screen" alt="" coords="455,5,589,32"/>
+<area shape="rect" id="node6" href="$sprite_8h.html#a717d04d4d8be1da88ab26a5c6e458dd4" title="draws every sprite active on the leaderboard screen" alt="" coords="437,56,607,83"/>
+<area shape="rect" id="node7" href="$sprite_8h.html#a18d2a7531a93ef7de9c7b40f73ceb41a" title="used to write loading screen" alt="" coords="451,107,593,133"/>
+<area shape="rect" id="node8" href="$sprite_8h.html#adbe44b60726f0fc325c51a749d3dc257" title="draws every sprite active on the menu screen" alt="" coords="672,157,807,184"/>
+<area shape="rect" id="node10" href="$sprite_8h.html#a188a9312400f71c56f72ac5098675e48" title="draws every sprite active on the multiplayer score screen" alt="" coords="655,208,824,235"/>
+<area shape="rect" id="node11" href="$sprite_8h.html#a43e5e966dabd5d97996967a58a5698cf" title="draws every sprite active on the multiplayer game screen" alt="" coords="660,259,819,301"/>
+<area shape="rect" id="node12" href="$sprite_8h.html#abd04584c48b31fe6235e4b7c9cc3b605" title="draws every sprite active on the score screen" alt="" coords="672,325,807,352"/>
+<area shape="rect" id="node13" href="$sprite_8h.html#a3d39d1edf4dd00233efcecf5a3f6507e" title="loads and creates every sprite" alt="" coords="293,335,385,361"/>
+<area shape="rect" id="node3" href="$game_8h.html#aaeeaa634eac815915c1307850128fa6a" title="handle timer interrupts" alt="" coords="289,183,389,209"/>
+<area shape="rect" id="node4" href="$game_8h.html#a25300199ba6cf6bfe2f16998384874b7" title="check all th interrupts while the game is running and make changes" alt="" coords="163,251,241,277"/>
+<area shape="rect" id="node5" href="$proj_8c.html#a90aad768b0a0b41e4bcacc566b0cae6e" title="project main loop used to run the programs" alt="" coords="5,251,115,277"/>
+<area shape="rect" id="node9" href="$state__machine_8h.html#a1911f92e97e5008acba3c45d2d70acba" title="used to handle changes(clicks) in menu screen" alt="" coords="449,157,595,184"/>
+</map>

@@ -1,0 +1,24 @@
+<map id="get_x_max" name="get_x_max">
+<area shape="rect" id="node1" title="Get the max x of the buffer." alt="" coords="1047,291,1133,317"/>
+<area shape="rect" id="node2" href="$sprite_8h.html#a717d04d4d8be1da88ab26a5c6e458dd4" title="draws every sprite active on the leaderboard screen" alt="" coords="655,224,824,251"/>
+<area shape="rect" id="node6" href="$sprite_8h.html#a18d2a7531a93ef7de9c7b40f73ceb41a" title="used to write loading screen" alt="" coords="668,72,811,99"/>
+<area shape="rect" id="node7" href="$sprite_8h.html#adbe44b60726f0fc325c51a749d3dc257" title="draws every sprite active on the menu screen" alt="" coords="672,21,807,48"/>
+<area shape="rect" id="node9" href="$sprite_8h.html#ae5fbc48ada5ff0f47b464a44ece7eed0" title="Draws sprite in the position given by the x and y arguments." alt="" coords="872,139,999,165"/>
+<area shape="rect" id="node11" href="$sprite_8h.html#a188a9312400f71c56f72ac5098675e48" title="draws every sprite active on the multiplayer score screen" alt="" coords="655,275,824,301"/>
+<area shape="rect" id="node13" href="$sprite_8h.html#abd04584c48b31fe6235e4b7c9cc3b605" title="draws every sprite active on the score screen" alt="" coords="672,325,807,352"/>
+<area shape="rect" id="node14" href="$sprite_8h.html#ac6bf330546ad3041f28137d976dfa0dd" title="handles every move, animation and collisions of every sprite on game" alt="" coords="674,377,805,418"/>
+<area shape="rect" id="node16" href="$sprite_8h.html#adc6632ac401a698b092a1fc146d14603" title="handles every move, animation and collisions of every sprite on game" alt="" coords="662,443,817,469"/>
+<area shape="rect" id="node18" href="$sprite_8h.html#affcb84d9d3029af3750bc0d1598da0cd" title="moves the cursor sprite upon the move of the mouse and updates positions" alt="" coords="888,493,983,520"/>
+<area shape="rect" id="node21" href="$sprite_8h.html#a124fe7601109c19c839318531b26ef46" title="moves the sprite upon the speed elements and updates positions" alt="" coords="890,291,981,317"/>
+<area shape="rect" id="node22" href="$sprite_8h.html#addb303244021cea7f85d1f6645a53b9a" title="goes back to the initial positions and speed" alt="" coords="887,544,984,571"/>
+<area shape="rect" id="node3" href="$group__game.html#gaaeeaa634eac815915c1307850128fa6a" title="handle timer interrupts" alt="" coords="295,249,395,276"/>
+<area shape="rect" id="node4" href="$group__game.html#ga25300199ba6cf6bfe2f16998384874b7" title="check all th interrupts while the game is running and make changes" alt="" coords="163,329,241,356"/>
+<area shape="rect" id="node5" href="$proj_8c.html#a90aad768b0a0b41e4bcacc566b0cae6e" title="project main loop used to run the programs" alt="" coords="5,329,115,356"/>
+<area shape="rect" id="node8" href="$state__machine_8h.html#a1911f92e97e5008acba3c45d2d70acba" title="used to handle changes(clicks) in menu screen" alt="" coords="455,5,600,32"/>
+<area shape="rect" id="node10" href="$sprite_8h.html#a461ffe91d5eff77e9cd6be0c4b29e986" title="draws every sprite active on the game screen" alt="" coords="460,173,595,200"/>
+<area shape="rect" id="node12" href="$sprite_8h.html#a43e5e966dabd5d97996967a58a5698cf" title="draws every sprite active on the multiplayer game screen" alt="" coords="448,107,607,149"/>
+<area shape="rect" id="node15" href="$state__machine_8h.html#a6f594055811de08297e195fb8610d32c" title="handles multiplayer game changes" alt="" coords="462,377,593,418"/>
+<area shape="rect" id="node17" href="$state__machine_8h.html#a94abc7e9cf89b91e8a5b71abbbdb4b80" title="depending of the game state the function will make there changes" alt="" coords="450,443,605,469"/>
+<area shape="rect" id="node19" href="$state__machine_8h.html#a9ebd8bcbc6bfad54e8145e424bea6c65" title="make all the changes in the game related to the mouse event received" alt="" coords="454,493,601,520"/>
+<area shape="rect" id="node20" href="$group__game.html#ga16022c02f9b6a597ea85af52f4fbfcee" title="handle the mouse iterrupts" alt="" coords="289,439,400,465"/>
+</map>

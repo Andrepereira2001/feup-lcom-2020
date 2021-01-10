@@ -1,0 +1,6 @@
+<map id="handle_menu_screen" name="handle_menu_screen">
+<area shape="rect" id="node1" title="used to handle changes(clicks) in menu screen" alt="" coords="437,5,583,32"/>
+<area shape="rect" id="node2" href="$group__game.html#gaaeeaa634eac815915c1307850128fa6a" title="handle timer interrupts" alt="" coords="289,5,389,32"/>
+<area shape="rect" id="node3" href="$group__game.html#ga25300199ba6cf6bfe2f16998384874b7" title="check all th interrupts while the game is running and make changes" alt="" coords="163,5,241,32"/>
+<area shape="rect" id="node4" href="$proj_8c.html#a90aad768b0a0b41e4bcacc566b0cae6e" title="project main loop used to run the programs" alt="" coords="5,5,115,32"/>
+</map>

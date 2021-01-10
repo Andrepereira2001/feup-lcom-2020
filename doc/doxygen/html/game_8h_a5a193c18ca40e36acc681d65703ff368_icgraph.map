@@ -1,0 +1,8 @@
+<map id="reset_game" name="reset_game">
+<area shape="rect" id="node1" title="reset game variavels: clock and score" alt="" coords="631,31,721,57"/>
+<area shape="rect" id="node2" href="$state__machine_8h.html#a1911f92e97e5008acba3c45d2d70acba" title="used to handle changes(clicks) in menu screen" alt="" coords="437,5,583,32"/>
+<area shape="rect" id="node6" href="$game_8h.html#aa66e83b4b853e2ec7b2acdb646adbedb" title="handles uart interrupts" alt="" coords="293,56,386,83"/>
+<area shape="rect" id="node3" href="$game_8h.html#aaeeaa634eac815915c1307850128fa6a" title="handle timer interrupts" alt="" coords="289,5,389,32"/>
+<area shape="rect" id="node4" href="$game_8h.html#a25300199ba6cf6bfe2f16998384874b7" title="check all th interrupts while the game is running and make changes" alt="" coords="163,31,241,57"/>
+<area shape="rect" id="node5" href="$proj_8c.html#a90aad768b0a0b41e4bcacc566b0cae6e" title="project main loop used to run the programs" alt="" coords="5,31,115,57"/>
+</map>

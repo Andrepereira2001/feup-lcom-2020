@@ -1,0 +1,4 @@
+<map id="config_uart1" name="config_uart1">
+<area shape="rect" id="node1" title="config com1 with 8 bits per char, odd parity, 1 stop bit" alt="" coords="5,5,97,32"/>
+<area shape="rect" id="node2" href="$utils_8c.html#a79a031a8611f5b2d6afa4158e92b0fb4" title=" " alt="" coords="145,5,236,32"/>
+</map>

@@ -1,0 +1,38 @@
+digraph "kbc_interrupt_validation"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node1 [label="kbc_interrupt_validation",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="validate the interrupt recived from the keyboard"];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="kbc_event_handler",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$state__machine_8c.html#a8fd09b3048c937168ac1c08af9b19bb0",tooltip="make all the changes in the game related to the key event received"];
+  Node2 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="add_score",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$group__game.html#ga87c16b2378fdf3ece4e779be6716956b",tooltip="add a new score to the points array that contais the 5 biggest scores made in that run"];
+  Node2 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="reset_game",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$group__game.html#gafc9166b05283e70d74e27e9e20585878",tooltip="reset game variavels all game variavels"];
+  Node4 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="reset_sprites",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$sprite_8c.html#addb303244021cea7f85d1f6645a53b9a",tooltip="goes back to the initial positions and speed"];
+  Node5 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="change_sprite_animation",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$sprite_8c.html#a89def829f3803415e37ef0b7d2ee3e42",tooltip="moves to the next animation on the vector of animations if the last goes back to the beginning"];
+  Node5 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="check_collision",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$sprite_8c.html#af99ef7d46af49168795a6e79936fb1d5",tooltip="checks collision between a sprite with a square with width x_size and height y_size"];
+  Node5 -> Node8 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="get_x_max",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$group__video__gr.html#ga59b8bc184035b459a3b61ade2b835aeb",tooltip="Get the max x of the buffer."];
+  Node5 -> Node9 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="get_y_max",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$group__video__gr.html#ga0ed4b076b187d5cc6070df7543855ee3",tooltip="Get the max y of the buffer."];
+  Node5 -> Node10 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 [label="myRand",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$group__game.html#ga6f937826ce61860c81f00a4034b4fc35",tooltip="used to make the same function as rand() and srand() but works fine This code module as imported from..."];
+  Node2 -> Node11 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node11 [label="send_keys_byte",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$group__game.html#ga16fcf7ea3f61fbe3b5b196fbb5b8e13a",tooltip="function used to send keys byte to the other VM"];
+  Node2 -> Node12 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node12 [label="set_car2_speed",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$sprite_8c.html#a6b71149ca230bb37dfeac4b528ca0f97",tooltip="Set the car2 speed object upon background move, used when in multiplayer mode."];
+  Node2 -> Node13 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node13 [label="set_car_speed",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$sprite_8c.html#a439e654a6989f8636720228493bec494",tooltip="Set the car speed object upon background move."];
+  Node2 -> Node14 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node14 [label="set_claw2_yspeed",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$sprite_8c.html#a306c98af05588b4afb32d80574037f25",tooltip="Set the claw2 yspeed object, used when in multiplayer mode."];
+  Node2 -> Node15 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node15 [label="set_claw_yspeed",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$sprite_8c.html#a9ebc0bb1d2af63729e6d78d46a029b25",tooltip="Set the claw yspeed object."];
+  Node1 -> Node16 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node16 [label="kbc_get_event",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$state__machine_8c.html#aea7757252d64537fbf6bec44655ae2b3",tooltip="will generate the key event related to the key pressed"];
+}

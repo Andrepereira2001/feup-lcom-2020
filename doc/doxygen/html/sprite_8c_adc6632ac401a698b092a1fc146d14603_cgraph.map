@@ -1,0 +1,11 @@
+<map id="handle_sprite_changes" name="handle_sprite_changes">
+<area shape="rect" id="node1" title="handles every move, animation and collisions of every sprite on game" alt="" coords="5,172,160,199"/>
+<area shape="rect" id="node2" href="$sprite_8c.html#a89def829f3803415e37ef0b7d2ee3e42" title="moves to the next animation on the vector of animations if the last goes back to the beginning" alt="" coords="403,8,569,35"/>
+<area shape="rect" id="node3" href="$sprite_8c.html#a114cb0f8da8e85a0a844de1aa4703a5c" title="updates claw speed and positions upon car moves" alt="" coords="208,197,355,224"/>
+<area shape="rect" id="node4" href="$sprite_8c.html#af99ef7d46af49168795a6e79936fb1d5" title="checks collision between a sprite with a square with width x_size and height y_size" alt="" coords="226,248,337,275"/>
+<area shape="rect" id="node5" href="$group__video__gr.html#ga59b8bc184035b459a3b61ade2b835aeb" title="Get the max x of the buffer." alt="" coords="443,84,529,111"/>
+<area shape="rect" id="node6" href="$group__video__gr.html#ga0ed4b076b187d5cc6070df7543855ee3" title="Get the max y of the buffer." alt="" coords="443,135,529,161"/>
+<area shape="rect" id="node7" href="$sprite_8c.html#a124fe7601109c19c839318531b26ef46" title="moves the sprite upon the speed elements and updates positions" alt="" coords="236,45,327,72"/>
+<area shape="rect" id="node8" href="$state__machine_8c.html#ac3bf10809f9d3571f5fd04762a0025fd" title="Set game drop state" alt="" coords="224,299,339,325"/>
+<area shape="rect" id="node9" href="$state__machine_8c.html#a0f18e11b34c3981fd32e5d04f485b306" title="Set game drop state." alt="" coords="227,349,335,376"/>
+</map>

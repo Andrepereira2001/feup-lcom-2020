@@ -1,0 +1,36 @@
+digraph "myRand"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="myRand",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="used to make the same function as rand() and srand() but works fine This code module as imported from..."];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="handle_multiplayer\l_sprite_changes",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$sprite_8h.html#ac6bf330546ad3041f28137d976dfa0dd",tooltip="handles every move, animation and collisions of every sprite on game"];
+  Node2 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="handle_multiplayer\l_changes",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$state__machine_8h.html#a6f594055811de08297e195fb8610d32c",tooltip="handles multiplayer game changes"];
+  Node3 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="timer_handler",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$group__game.html#gaaeeaa634eac815915c1307850128fa6a",tooltip="handle timer interrupts"];
+  Node4 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="game_run",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$group__game.html#ga25300199ba6cf6bfe2f16998384874b7",tooltip="check all th interrupts while the game is running and make changes"];
+  Node5 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="proj_main_loop",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$proj_8c.html#a90aad768b0a0b41e4bcacc566b0cae6e",tooltip="project main loop used to run the programs"];
+  Node1 -> Node7 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="reset_sprites",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$sprite_8h.html#addb303244021cea7f85d1f6645a53b9a",tooltip="goes back to the initial positions and speed"];
+  Node7 -> Node8 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="reset_game",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$group__game.html#gafc9166b05283e70d74e27e9e20585878",tooltip="reset game variavels all game variavels"];
+  Node8 -> Node9 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="handle_menu_screen",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$state__machine_8h.html#a1911f92e97e5008acba3c45d2d70acba",tooltip="used to handle changes(clicks) in menu screen"];
+  Node9 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 -> Node10 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 [label="kbc_event_handler",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$state__machine_8h.html#a8fd09b3048c937168ac1c08af9b19bb0",tooltip="make all the changes in the game related to the key event received"];
+  Node10 -> Node11 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node11 [label="kbc_interrupt_validation",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$state__machine_8h.html#a0ea82436a2c2f51732b15283404d213a",tooltip="validate the interrupt recived from the keyboard"];
+  Node11 -> Node12 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node12 [label="keyboard_handler",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$group__game.html#ga2ede7a7d641eb07fc9c351b475e23154",tooltip="handle the keyboard interrupt and make all the ncesseary changes"];
+  Node12 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 -> Node13 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node13 [label="uart_handler",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$group__game.html#gaa66e83b4b853e2ec7b2acdb646adbedb",tooltip="handles uart interrupts"];
+  Node13 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 -> Node13 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+}

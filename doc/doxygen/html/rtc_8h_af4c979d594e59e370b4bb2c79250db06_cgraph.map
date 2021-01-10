@@ -1,0 +1,4 @@
+<map id="disable_periodic_interrupts" name="disable_periodic_interrupts">
+<area shape="rect" id="node1" title="disables periodic interrupts from rtc" alt="" coords="5,5,181,32"/>
+<area shape="rect" id="node2" href="$utils_8c.html#a79a031a8611f5b2d6afa4158e92b0fb4" title=" " alt="" coords="229,5,320,32"/>
+</map>

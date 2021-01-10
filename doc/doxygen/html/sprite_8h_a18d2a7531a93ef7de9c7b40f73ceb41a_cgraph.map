@@ -1,0 +1,14 @@
+<map id="draw_loading_screen" name="draw_loading_screen">
+<area shape="rect" id="node1" title="used to write loading screen" alt="" coords="5,191,148,218"/>
+<area shape="rect" id="node2" href="$sprite_8c.html#a89def829f3803415e37ef0b7d2ee3e42" title="moves to the next animation on the vector of animations if the last goes back to the beginning" alt="" coords="407,39,573,66"/>
+<area shape="rect" id="node3" href="$group__video__gr.html#ga363017a18d5d4e7fe5268558b7d29b46" title="copy data of background buffer to second buffer" alt="" coords="196,39,359,66"/>
+<area shape="rect" id="node4" href="$group__video__gr.html#gaa77075a14b209cb7ada2ee5b70d81729" title="copy data of second buffer to main buffer" alt="" coords="233,90,321,117"/>
+<area shape="rect" id="node5" href="$sprite_8c.html#ae5fbc48ada5ff0f47b464a44ece7eed0" title="Draws sprite in the position given by the x and y arguments." alt="" coords="214,242,341,269"/>
+<area shape="rect" id="node6" href="$group__video__gr.html#ga59b8bc184035b459a3b61ade2b835aeb" title="Get the max x of the buffer." alt="" coords="447,191,533,218"/>
+<area shape="rect" id="node8" href="$sprite_8c.html#a6c75fbf31230126d2f19b29deaf24b2f" title="Draws sprite in the position given by the x and y elements." alt="" coords="233,293,321,319"/>
+<area shape="rect" id="node9" href="$sprite_8c.html#a124fe7601109c19c839318531b26ef46" title="moves the sprite upon the speed elements and updates positions" alt="" coords="232,141,323,167"/>
+<area shape="rect" id="node11" href="$sprite_8c.html#a6b71149ca230bb37dfeac4b528ca0f97" title="Set the car2 speed object upon background move, used when in multiplayer mode." alt="" coords="220,343,335,370"/>
+<area shape="rect" id="node12" href="$sprite_8c.html#a439e654a6989f8636720228493bec494" title="Set the car speed object upon background move." alt="" coords="224,394,331,421"/>
+<area shape="rect" id="node7" href="$group__video__gr.html#ga78bb98b213384943323ab5d7c6cdb573" title="paints the pixel in that x and y position in the screen" alt="" coords="439,267,541,294"/>
+<area shape="rect" id="node10" href="$group__video__gr.html#ga0ed4b076b187d5cc6070df7543855ee3" title="Get the max y of the buffer." alt="" coords="447,141,533,167"/>
+</map>

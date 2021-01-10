@@ -1,0 +1,9 @@
+<map id="draw_cursor_sprite" name="draw_cursor_sprite">
+<area shape="rect" id="node1" title="Draws cursor sprite in the position given by the x and y elements." alt="" coords="813,31,944,57"/>
+<area shape="rect" id="node2" href="$sprite_8h.html#a461ffe91d5eff77e9cd6be0c4b29e986" title="draws every sprite active on the game screen" alt="" coords="443,5,577,32"/>
+<area shape="rect" id="node6" href="$sprite_8h.html#adbe44b60726f0fc325c51a749d3dc257" title="draws every sprite active on the menu screen" alt="" coords="631,56,765,83"/>
+<area shape="rect" id="node3" href="$group__game.html#gaaeeaa634eac815915c1307850128fa6a" title="handle timer interrupts" alt="" coords="289,31,389,57"/>
+<area shape="rect" id="node4" href="$group__game.html#ga25300199ba6cf6bfe2f16998384874b7" title="check all th interrupts while the game is running and make changes" alt="" coords="163,31,241,57"/>
+<area shape="rect" id="node5" href="$proj_8c.html#a90aad768b0a0b41e4bcacc566b0cae6e" title="project main loop used to run the programs" alt="" coords="5,31,115,57"/>
+<area shape="rect" id="node7" href="$state__machine_8h.html#a1911f92e97e5008acba3c45d2d70acba" title="used to handle changes(clicks) in menu screen" alt="" coords="437,56,583,83"/>
+</map>

@@ -1,0 +1,11 @@
+<map id="send_keys_byte" name="send_keys_byte">
+<area shape="rect" id="node1" title="function used to send keys byte to the other VM" alt="" coords="860,31,977,57"/>
+<area shape="rect" id="node2" href="$state__machine_8h.html#a1911f92e97e5008acba3c45d2d70acba" title="used to handle changes(clicks) in menu screen" alt="" coords="667,5,812,32"/>
+<area shape="rect" id="node6" href="$state__machine_8h.html#a8fd09b3048c937168ac1c08af9b19bb0" title="make all the changes in the game related to the key event received" alt="" coords="675,56,804,83"/>
+<area shape="rect" id="node3" href="$group__game.html#gaaeeaa634eac815915c1307850128fa6a" title="handle timer interrupts" alt="" coords="301,5,401,32"/>
+<area shape="rect" id="node4" href="$group__game.html#ga25300199ba6cf6bfe2f16998384874b7" title="check all th interrupts while the game is running and make changes" alt="" coords="163,56,241,83"/>
+<area shape="rect" id="node5" href="$proj_8c.html#a90aad768b0a0b41e4bcacc566b0cae6e" title="project main loop used to run the programs" alt="" coords="5,56,115,83"/>
+<area shape="rect" id="node7" href="$state__machine_8h.html#a0ea82436a2c2f51732b15283404d213a" title="validate the interrupt recived from the keyboard" alt="" coords="461,56,619,83"/>
+<area shape="rect" id="node9" href="$group__game.html#gaa66e83b4b853e2ec7b2acdb646adbedb" title="handles uart interrupts" alt="" coords="493,107,587,133"/>
+<area shape="rect" id="node8" href="$group__game.html#ga2ede7a7d641eb07fc9c351b475e23154" title="handle the keyboard interrupt and make all the ncesseary changes" alt="" coords="289,56,413,83"/>
+</map>

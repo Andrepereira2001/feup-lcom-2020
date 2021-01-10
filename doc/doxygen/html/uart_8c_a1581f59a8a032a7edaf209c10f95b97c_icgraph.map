@@ -1,0 +1,6 @@
+<map id="config_uart1" name="config_uart1">
+<area shape="rect" id="node1" title="config com1 with 8 bits per char, odd parity, 1 stop bit" alt="" coords="448,5,540,32"/>
+<area shape="rect" id="node2" href="$game_8h.html#a93fa37a8a745cdfea1363e7a280c61cb" title="subscibre interrupts of the periferics" alt="" coords="289,5,400,32"/>
+<area shape="rect" id="node3" href="$game_8h.html#a25300199ba6cf6bfe2f16998384874b7" title="check all th interrupts while the game is running and make changes" alt="" coords="163,5,241,32"/>
+<area shape="rect" id="node4" href="$proj_8c.html#a90aad768b0a0b41e4bcacc566b0cae6e" title="project main loop used to run the programs" alt="" coords="5,5,115,32"/>
+</map>

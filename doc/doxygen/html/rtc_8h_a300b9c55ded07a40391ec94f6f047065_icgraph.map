@@ -1,0 +1,7 @@
+<map id="convert_to_decimal" name="convert_to_decimal">
+<area shape="rect" id="node1" title="convert given bcd number to decimal number" alt="" coords="551,5,684,32"/>
+<area shape="rect" id="node2" href="$rtc_8h.html#a9a01915134a279f2e988fd8c2aac7ac9" title="read date from the rtc registers" alt="" coords="424,5,503,32"/>
+<area shape="rect" id="node3" href="$game_8h.html#a945aa713bc616483a67e6271863f1354" title="handles rtc interrupts" alt="" coords="289,5,376,32"/>
+<area shape="rect" id="node4" href="$game_8h.html#a25300199ba6cf6bfe2f16998384874b7" title="check all th interrupts while the game is running and make changes" alt="" coords="163,5,241,32"/>
+<area shape="rect" id="node5" href="$proj_8c.html#a90aad768b0a0b41e4bcacc566b0cae6e" title="project main loop used to run the programs" alt="" coords="5,5,115,32"/>
+</map>

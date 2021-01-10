@@ -1,0 +1,5 @@
+<map id="destroy_sprites" name="destroy_sprites">
+<area shape="rect" id="node1" title="destroys every sprite ever created" alt="" coords="293,5,404,32"/>
+<area shape="rect" id="node2" href="$group__game.html#ga486d33bd072d399b11f0cf3ae7448e5b" title="unscribe all the interrupts , unload sprites, and return to text mode" alt="" coords="163,5,245,32"/>
+<area shape="rect" id="node3" href="$proj_8c.html#a90aad768b0a0b41e4bcacc566b0cae6e" title="project main loop used to run the programs" alt="" coords="5,5,115,32"/>
+</map>

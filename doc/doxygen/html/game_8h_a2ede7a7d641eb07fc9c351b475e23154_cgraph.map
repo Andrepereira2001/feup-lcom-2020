@@ -1,0 +1,5 @@
+<map id="keyboard_handler" name="keyboard_handler">
+<area shape="rect" id="node1" title="handle the keyboard interrupt and make all the ncesseary changes" alt="" coords="5,5,129,32"/>
+<area shape="rect" id="node2" href="$keyboard_8c.html#aea970a154161a35f6894898a092ed70a" title="Handles keyboard interrutps." alt="" coords="177,5,237,32"/>
+<area shape="rect" id="node3" href="$utils_8c.html#a79a031a8611f5b2d6afa4158e92b0fb4" title=" " alt="" coords="285,5,376,32"/>
+</map>

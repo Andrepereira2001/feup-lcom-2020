@@ -1,0 +1,4 @@
+<map id="check_LSR_byte_received" name="check_LSR_byte_received">
+<area shape="rect" id="node1" title="checks if there is a byte pending to be read in the receiver buffer register" alt="" coords="5,5,180,32"/>
+<area shape="rect" id="node2" href="$utils_8c.html#a79a031a8611f5b2d6afa4158e92b0fb4" title=" " alt="" coords="228,5,319,32"/>
+</map>

@@ -1,0 +1,5 @@
+<map id="move_cursor" name="move_cursor">
+<area shape="rect" id="node1" title="moves the cursor sprite upon the move of the mouse and updates positions" alt="" coords="5,31,100,57"/>
+<area shape="rect" id="node2" href="$group__video__gr.html#ga59b8bc184035b459a3b61ade2b835aeb" title="Get the max x of the buffer." alt="" coords="148,5,235,32"/>
+<area shape="rect" id="node3" href="$group__video__gr.html#ga0ed4b076b187d5cc6070df7543855ee3" title="Get the max y of the buffer." alt="" coords="148,56,235,83"/>
+</map>

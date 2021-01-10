@@ -1,0 +1,6 @@
+<map id="game_init" name="game_init">
+<area shape="rect" id="node1" title="load the video mode that will be used, subscribe all interrupts, load all sprites" alt="" coords="5,5,84,32"/>
+<area shape="rect" id="node2" href="$video__gr_8c.html#aa6c1ff5024cd4d15e476bce487584daa" title=" " alt="" coords="132,5,191,32"/>
+<area shape="rect" id="node3" href="$group__video__gr.html#ga4b5cf40a81d79ac6594b03591d6c5641" title="maps all buffers used to draw the screen" alt="" coords="239,5,305,32"/>
+<area shape="rect" id="node4" href="$group__video__gr.html#gac497fecfdc5023d47498d7854b24014c" title="gets all information related to that mode" alt="" coords="353,5,511,32"/>
+</map>

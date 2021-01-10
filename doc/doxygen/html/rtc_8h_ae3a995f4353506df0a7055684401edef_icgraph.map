@@ -1,0 +1,6 @@
+<map id="valid_read_date" name="valid_read_date">
+<area shape="rect" id="node1" title="check if is valid read date" alt="" coords="424,5,535,32"/>
+<area shape="rect" id="node2" href="$game_8h.html#a945aa713bc616483a67e6271863f1354" title="handles rtc interrupts" alt="" coords="289,5,376,32"/>
+<area shape="rect" id="node3" href="$game_8h.html#a25300199ba6cf6bfe2f16998384874b7" title="check all th interrupts while the game is running and make changes" alt="" coords="163,5,241,32"/>
+<area shape="rect" id="node4" href="$proj_8c.html#a90aad768b0a0b41e4bcacc566b0cae6e" title="project main loop used to run the programs" alt="" coords="5,5,115,32"/>
+</map>

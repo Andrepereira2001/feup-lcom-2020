@@ -1,0 +1,10 @@
+<map id="mouse_read_ack" name="mouse_read_ack">
+<area shape="rect" id="node1" title="reads the acknowledge byte from the output buffer" alt="" coords="937,42,1059,69"/>
+<area shape="rect" id="node2" href="$group__mouse.html#ga090c9bebd05709adc5de77ab5b26d7c3" title="writes the given command to the input buffer" alt="" coords="731,42,889,69"/>
+<area shape="rect" id="node3" href="$group__mouse.html#ga7e311379d4d64f88873ef8ade5c82a25" title="Disables stream mode data reporting, by sending the respective command to the mouse." alt="" coords="502,5,643,47"/>
+<area shape="rect" id="node7" href="$group__mouse.html#ga8e390cada87a347c846313cb7530f806" title="Enables stream mode data reporting, by sending the respective command to the mouse." alt="" coords="463,71,683,98"/>
+<area shape="rect" id="node4" href="$group__game.html#gacaa55690023f39b628618948f858a0ea" title="unscribe interrupts of the periferics" alt="" coords="289,15,415,42"/>
+<area shape="rect" id="node5" href="$group__game.html#ga25300199ba6cf6bfe2f16998384874b7" title="check all th interrupts while the game is running and make changes" alt="" coords="163,42,241,69"/>
+<area shape="rect" id="node6" href="$proj_8c.html#a90aad768b0a0b41e4bcacc566b0cae6e" title="project main loop used to run the programs" alt="" coords="5,42,115,69"/>
+<area shape="rect" id="node8" href="$group__game.html#ga93fa37a8a745cdfea1363e7a280c61cb" title="subscibre interrupts of the periferics" alt="" coords="297,67,407,94"/>
+</map>

@@ -1,0 +1,27 @@
+digraph "reset_game"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="reset_game",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="reset game variavels all game variavels"];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="handle_menu_screen",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$state__machine_8h.html#a1911f92e97e5008acba3c45d2d70acba",tooltip="used to handle changes(clicks) in menu screen"];
+  Node2 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="timer_handler",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$group__game.html#gaaeeaa634eac815915c1307850128fa6a",tooltip="handle timer interrupts"];
+  Node3 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="game_run",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$group__game.html#ga25300199ba6cf6bfe2f16998384874b7",tooltip="check all th interrupts while the game is running and make changes"];
+  Node4 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="proj_main_loop",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$proj_8c.html#a90aad768b0a0b41e4bcacc566b0cae6e",tooltip="project main loop used to run the programs"];
+  Node1 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="kbc_event_handler",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$state__machine_8h.html#a8fd09b3048c937168ac1c08af9b19bb0",tooltip="make all the changes in the game related to the key event received"];
+  Node6 -> Node7 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="kbc_interrupt_validation",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$state__machine_8h.html#a0ea82436a2c2f51732b15283404d213a",tooltip="validate the interrupt recived from the keyboard"];
+  Node7 -> Node8 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="keyboard_handler",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$group__game.html#ga2ede7a7d641eb07fc9c351b475e23154",tooltip="handle the keyboard interrupt and make all the ncesseary changes"];
+  Node8 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 -> Node9 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="uart_handler",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$group__game.html#gaa66e83b4b853e2ec7b2acdb646adbedb",tooltip="handles uart interrupts"];
+  Node9 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node9 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+}

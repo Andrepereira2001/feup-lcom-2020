@@ -1,0 +1,14 @@
+<map id="handle_multiplayer_changes" name="handle_multiplayer_changes">
+<area shape="rect" id="node1" title="handles multiplayer game changes" alt="" coords="5,221,136,262"/>
+<area shape="rect" id="node2" href="$sprite_8c.html#ac6bf330546ad3041f28137d976dfa0dd" title="handles every move, animation and collisions of every sprite on game" alt="" coords="184,221,315,262"/>
+<area shape="rect" id="node3" href="$sprite_8c.html#a89def829f3803415e37ef0b7d2ee3e42" title="moves to the next animation on the vector of animations if the last goes back to the beginning" alt="" coords="564,13,731,40"/>
+<area shape="rect" id="node4" href="$sprite_8c.html#a61718c89848354210aa61125d2c1702a" title="updates claw2 speed and positions upon car2 moves, used when in multiplayer mode" alt="" coords="363,203,516,229"/>
+<area shape="rect" id="node5" href="$sprite_8c.html#a114cb0f8da8e85a0a844de1aa4703a5c" title="updates claw speed and positions upon car moves" alt="" coords="366,253,513,280"/>
+<area shape="rect" id="node6" href="$sprite_8c.html#af99ef7d46af49168795a6e79936fb1d5" title="checks collision between a sprite with a square with width x_size and height y_size" alt="" coords="384,304,495,331"/>
+<area shape="rect" id="node7" href="$group__video__gr.html#ga59b8bc184035b459a3b61ade2b835aeb" title="Get the max x of the buffer." alt="" coords="604,89,691,116"/>
+<area shape="rect" id="node8" href="$group__video__gr.html#ga0ed4b076b187d5cc6070df7543855ee3" title="Get the max y of the buffer." alt="" coords="604,140,691,167"/>
+<area shape="rect" id="node9" href="$sprite_8c.html#a124fe7601109c19c839318531b26ef46" title="moves the sprite upon the speed elements and updates positions" alt="" coords="394,51,485,77"/>
+<area shape="rect" id="node10" href="$group__game.html#ga6f937826ce61860c81f00a4034b4fc35" title="used to make the same function as rand() and srand() but works fine This code module as imported from..." alt="" coords="404,355,475,381"/>
+<area shape="rect" id="node11" href="$state__machine_8c.html#acea4e97f21b7f738037b74e93aa52509" title="Set the multiplayer catch state" alt="" coords="365,406,514,447"/>
+<area shape="rect" id="node12" href="$state__machine_8c.html#ab1bb8759dc7ed51483eae1ff2b0724af" title="Set the multiplayer drop state." alt="" coords="368,471,511,513"/>
+</map>

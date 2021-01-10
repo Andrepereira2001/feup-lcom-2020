@@ -1,0 +1,6 @@
+<map id="create_sprite_background" name="create_sprite_background">
+<area shape="rect" id="node1" title="Create a sprite background and fills the background buffer." alt="" coords="5,64,176,91"/>
+<area shape="rect" id="node2" href="$group__video__gr.html#gafcd8f056f1d9ad71f05b54113d51ad08" title="set all buffer conttent to tranparency collor" alt="" coords="269,5,359,32"/>
+<area shape="rect" id="node3" href="$group__video__gr.html#ga13062f9cc6c5bcd0d5d0ab37b9f6eff6" title="used to initialize background buffer" alt="" coords="224,57,404,98"/>
+<area shape="rect" id="node4" href="$group__video__gr.html#ga78bb98b213384943323ab5d7c6cdb573" title="paints the pixel in that x and y position in the screen" alt="" coords="263,123,365,149"/>
+</map>

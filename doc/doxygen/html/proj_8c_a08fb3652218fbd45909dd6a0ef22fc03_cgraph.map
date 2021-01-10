@@ -1,0 +1,52 @@
+<map id="proj_main_loop" name="proj_main_loop">
+<area shape="rect" id="node1" title="project main loop used to run the programs" alt="" coords="5,263,115,289"/>
+<area shape="rect" id="node2" href="$game_8c.html#a486d33bd072d399b11f0cf3ae7448e5b" title="&#45;unscribe all the interrupts , unload sprites, and return to text mode" alt="" coords="163,212,245,239"/>
+<area shape="rect" id="node7" href="$game_8c.html#a5f5ccbe5abfdef24c8378dc3cf32ffb3" title="load the video mode that will be used, subscribe all interrupts, load all sprites" alt="" coords="165,263,243,289"/>
+<area shape="rect" id="node10" href="$game_8c.html#a25300199ba6cf6bfe2f16998384874b7" title="check all th interrupts while the game is running and make changes" alt="" coords="165,655,243,681"/>
+<area shape="rect" id="node3" href="$sprite_8c.html#a8fdbc6c7bfca3ef4a8800a3cdc19d932" title="destroys every sprite ever created" alt="" coords="317,161,427,188"/>
+<area shape="rect" id="node6" href="$video__gr_8c.html#a2b66d5baf4612c2b79d4c487ab5cdaeb" title="this function free all the memory alocated to the background buffer and second buffer" alt="" coords="313,212,431,239"/>
+<area shape="rect" id="node4" href="$sprite_8c.html#a294d75f67e89b88021ed206de9da0f00" title="Destroys and Frees the mem used with this Sprite." alt="" coords="537,136,680,163"/>
+<area shape="rect" id="node5" href="$sprite_8c.html#af16c6befaac9ffb673b9e3c798d542ed" title="Destroys and Frees the mem used with this Sprite." alt="" coords="557,187,661,213"/>
+<area shape="rect" id="node8" href="$video__gr_8c.html#aa6c1ff5024cd4d15e476bce487584daa" title=" " alt="" coords="343,263,401,289"/>
+<area shape="rect" id="node9" href="$video__gr_8c.html#ae6189f47f638e145d9a6bc10e92389af" title=" " alt="" coords="575,249,642,276"/>
+<area shape="rect" id="node11" href="$mouse_8c.html#ad1598d37b426befb08b215d80f149021" title="Fills the packet with the information received by the mouse." alt="" coords="329,503,415,529"/>
+<area shape="rect" id="node12" href="$state__machine_8c.html#a0ea82436a2c2f51732b15283404d213a" title="validate the interrupt recived from the keyboard" alt="" coords="293,731,451,757"/>
+<area shape="rect" id="node15" href="$game_8c.html#a2ede7a7d641eb07fc9c351b475e23154" title="handle the keyboard interrupt and make all the ncesseary changes" alt="" coords="310,1212,434,1239"/>
+<area shape="rect" id="node18" href="$sprite_8c.html#a3d39d1edf4dd00233efcecf5a3f6507e" title="loads and creates every sprite" alt="" coords="563,300,655,327"/>
+<area shape="rect" id="node29" href="$game_8c.html#ae312189d62dad442920212c620691f00" title="handle the mouse iterrupts" alt="" coords="317,655,427,681"/>
+<area shape="rect" id="node32" href="$mouse_8c.html#a210374b50462acdedab00df64d5cea3c" title="Handles mouse interrutps." alt="" coords="333,1313,411,1340"/>
+<area shape="rect" id="node33" href="$game_8c.html#a945aa713bc616483a67e6271863f1354" title="handles rtc interrupts" alt="" coords="329,857,415,884"/>
+<area shape="rect" id="node37" href="$game_8c.html#a93fa37a8a745cdfea1363e7a280c61cb" title="subscibre interrupts of the periferics" alt="" coords="317,1060,427,1087"/>
+<area shape="rect" id="node44" href="$game_8c.html#aaeeaa634eac815915c1307850128fa6a" title="handle timer interrupts" alt="" coords="322,553,422,580"/>
+<area shape="rect" id="node50" href="$game_8c.html#acaa55690023f39b628618948f858a0ea" title="unscribe interrupts of the periferics" alt="" coords="309,452,435,479"/>
+<area shape="rect" id="node13" href="$state__machine_8c.html#a8fd09b3048c937168ac1c08af9b19bb0" title="make all the changes in the game related to the key event received" alt="" coords="544,731,673,757"/>
+<area shape="rect" id="node14" href="$state__machine_8c.html#aea7757252d64537fbf6bec44655ae2b3" title="will generate the key event related to the key pressed" alt="" coords="556,781,661,808"/>
+<area shape="rect" id="node16" href="$keyboard_8c.html#aea970a154161a35f6894898a092ed70a" title="Handles keyboard interrutps." alt="" coords="579,1288,639,1315"/>
+<area shape="rect" id="node17" href="$utils_8c.html#a79a031a8611f5b2d6afa4158e92b0fb4" title=" " alt="" coords="807,984,897,1011"/>
+<area shape="rect" id="node19" href="$sprite_8c.html#af79ea01197bc21b0430ef5d1b2600e7b" title="adds animation possibility to the sprite" alt="" coords="785,5,919,32"/>
+<area shape="rect" id="node20" href="$sprite_8c.html#ad379e7b422837c95af4ba527524cff7c" title="adds animation possibility to the cursor" alt="" coords="785,57,919,98"/>
+<area shape="rect" id="node21" href="$sprite_8c.html#af99ef7d46af49168795a6e79936fb1d5" title="checks collision between a sprite with a square with width x_size and height y_size" alt="" coords="797,123,907,149"/>
+<area shape="rect" id="node22" href="$video__gr_8c.html#a363017a18d5d4e7fe5268558b7d29b46" title="copy data of background buffer to second buffer" alt="" coords="771,477,933,504"/>
+<area shape="rect" id="node23" href="$sprite_8c.html#a2425e9d752f2b03c7980e031f42258e6" title="Create a new cursor sprite object." alt="" coords="782,173,922,200"/>
+<area shape="rect" id="node24" href="$sprite_8c.html#a5a882c18bf4572661b50abfc2b422c2e" title="Create a new menu sprite object." alt="" coords="784,224,920,251"/>
+<area shape="rect" id="node25" href="$sprite_8c.html#ac8fc8717d71a52fc5b5d3b55db9bbd9f" title="Create a new sprite object." alt="" coords="803,275,901,301"/>
+<area shape="rect" id="node26" href="$sprite_8c.html#a791082daa6d9f33135a8af922a3ad8b2" title="Create a sprite background and fills the background buffer." alt="" coords="767,325,937,352"/>
+<area shape="rect" id="node27" href="$video__gr_8c.html#a5bac153aec3570269b3331528bd791c0" title="Get the max x of the buffer." alt="" coords="809,427,895,453"/>
+<area shape="rect" id="node28" href="$video__gr_8c.html#ab475fac43cf9f5169fa5def2568477c4" title="Get the max y of the buffer." alt="" coords="809,376,895,403"/>
+<area shape="rect" id="node30" href="$state__machine_8c.html#a9ebd8bcbc6bfad54e8145e424bea6c65" title="make all the changes in the game related to the mouse event received" alt="" coords="535,680,682,707"/>
+<area shape="rect" id="node31" href="$state__machine_8c.html#aa6446b3ce2a4eb1c0fce84f02de6d355" title="generate mouse event related to the received packet from the mouse" alt="" coords="531,629,686,656"/>
+<area shape="rect" id="node34" href="$rtc_8c.html#a9a01915134a279f2e988fd8c2aac7ac9" title="read date from the rtc registers" alt="" coords="569,883,648,909"/>
+<area shape="rect" id="node35" href="$rtc_8c.html#a71a0905f2ca7d41d094abfaa2a03e7f8" title="reads register C from rtc" alt="" coords="555,933,662,960"/>
+<area shape="rect" id="node36" href="$rtc_8c.html#ae3a995f4353506df0a7055684401edef" title="check if is valid read date" alt="" coords="553,832,664,859"/>
+<area shape="rect" id="node38" href="$rtc_8c.html#aaa5b4ce80e301c24741c50ef275006a7" title="enables periodic interrupts from rtc" alt="" coords="522,1035,695,1061"/>
+<area shape="rect" id="node39" href="$keyboard_8c.html#a02884ada1971dbade466081413210b18" title="Subscribes keyboard interrupts." alt="" coords="545,1085,672,1112"/>
+<area shape="rect" id="node40" href="$mouse_8c.html#a8e390cada87a347c846313cb7530f806" title="Enables stream mode data reporting, by sending the respective command to the mouse." alt="" coords="499,1136,719,1163"/>
+<area shape="rect" id="node41" href="$mouse_8c.html#a20285aed4b3ef45812cd967532dd09db" title="Subscribes mouse interrupts." alt="" coords="536,1187,681,1213"/>
+<area shape="rect" id="node42" href="$rtc_8c.html#a5171a9c0f54940fe60f7500896afcc86" title="subscribes rtc interrupts" alt="" coords="548,1237,669,1264"/>
+<area shape="rect" id="node43" href="$timer_8c.html#ac57a7e1140a7e00ad95ac5488d2a671b" title="subscribe interrupts of the timer" alt="" coords="541,984,676,1011"/>
+<area shape="rect" id="node45" href="$sprite_8c.html#a461ffe91d5eff77e9cd6be0c4b29e986" title="draws every sprite active on the game screen" alt="" coords="541,579,676,605"/>
+<area shape="rect" id="node46" href="$sprite_8c.html#a191bbb0716dcc296c0a4eb586d86becc" title="draws every sprite active on the leaderboard screen" alt="" coords="524,376,693,403"/>
+<area shape="rect" id="node47" href="$sprite_8c.html#abd04584c48b31fe6235e4b7c9cc3b605" title="draws every sprite active on the score screen" alt="" coords="541,427,676,453"/>
+<area shape="rect" id="node48" href="$state__machine_8c.html#a94abc7e9cf89b91e8a5b71abbbdb4b80" title="depending of the game state the function will make there changes" alt="" coords="531,477,686,504"/>
+<area shape="rect" id="node49" href="$state__machine_8c.html#a1911f92e97e5008acba3c45d2d70acba" title="used to handle changes(clicks) in menu screen" alt="" coords="536,528,681,555"/>
+</map>

@@ -1,0 +1,39 @@
+<map id="timer_handler" name="timer_handler">
+<area shape="rect" id="node1" title="handle timer interrupts" alt="" coords="5,384,105,411"/>
+<area shape="rect" id="node2" href="$game_8c.html#a87c16b2378fdf3ece4e779be6716956b" title="add a new score to the points array that contais the 5 biggest scores made in that run" alt="" coords="189,156,272,183"/>
+<area shape="rect" id="node3" href="$sprite_8c.html#a461ffe91d5eff77e9cd6be0c4b29e986" title="draws every sprite active on the game screen" alt="" coords="373,191,508,217"/>
+<area shape="rect" id="node12" href="$sprite_8c.html#a717d04d4d8be1da88ab26a5c6e458dd4" title="draws every sprite active on the leaderboard screen" alt="" coords="356,308,525,335"/>
+<area shape="rect" id="node17" href="$sprite_8c.html#a18d2a7531a93ef7de9c7b40f73ceb41a" title="used to write loading screen" alt="" coords="369,511,512,537"/>
+<area shape="rect" id="node19" href="$sprite_8c.html#a188a9312400f71c56f72ac5098675e48" title="draws every sprite active on the multiplayer score screen" alt="" coords="356,409,525,436"/>
+<area shape="rect" id="node20" href="$sprite_8c.html#a43e5e966dabd5d97996967a58a5698cf" title="draws every sprite active on the multiplayer game screen" alt="" coords="361,242,520,283"/>
+<area shape="rect" id="node21" href="$sprite_8c.html#abd04584c48b31fe6235e4b7c9cc3b605" title="draws every sprite active on the score screen" alt="" coords="373,359,508,385"/>
+<area shape="rect" id="node22" href="$state__machine_8c.html#a94abc7e9cf89b91e8a5b71abbbdb4b80" title="depending of the game state the function will make there changes" alt="" coords="153,781,308,808"/>
+<area shape="rect" id="node28" href="$state__machine_8c.html#a1911f92e97e5008acba3c45d2d70acba" title="used to handle changes(clicks) in menu screen" alt="" coords="158,460,303,487"/>
+<area shape="rect" id="node33" href="$state__machine_8c.html#a6f594055811de08297e195fb8610d32c" title="handles multiplayer game changes" alt="" coords="165,1039,296,1081"/>
+<area shape="rect" id="node4" href="$video__gr_8c.html#a363017a18d5d4e7fe5268558b7d29b46" title="copy data of background buffer to second buffer" alt="" coords="573,241,736,268"/>
+<area shape="rect" id="node5" href="$video__gr_8c.html#aa77075a14b209cb7ada2ee5b70d81729" title="copy data of second buffer to main buffer" alt="" coords="611,191,699,217"/>
+<area shape="rect" id="node6" href="$sprite_8c.html#aebf5e9b3a4496ec8159a5bb5116a7f0a" title="Draws cursor sprite in the position given by the x and y elements." alt="" coords="589,89,720,116"/>
+<area shape="rect" id="node8" href="$sprite_8c.html#ae5fbc48ada5ff0f47b464a44ece7eed0" title="Draws sprite in the position given by the x and y arguments." alt="" coords="591,343,718,369"/>
+<area shape="rect" id="node10" href="$sprite_8c.html#a6c75fbf31230126d2f19b29deaf24b2f" title="Draws sprite in the position given by the x and y elements." alt="" coords="611,292,699,319"/>
+<area shape="rect" id="node11" href="$sprite_8c.html#a418abc41cb79478f5c37d6b2a7e26a14" title="Get the menu sprite correspondent to the number." alt="" coords="590,140,719,167"/>
+<area shape="rect" id="node7" href="$video__gr_8c.html#a9d27d9300f98012af303c0d3ac006074" title=" " alt="" coords="816,292,919,319"/>
+<area shape="rect" id="node9" href="$video__gr_8c.html#a5bac153aec3570269b3331528bd791c0" title="Get the max x of the buffer." alt="" coords="824,571,911,597"/>
+<area shape="rect" id="node13" href="$sprite_8c.html#a124fe7601109c19c839318531b26ef46" title="moves the sprite upon the speed elements and updates positions" alt="" coords="609,647,700,673"/>
+<area shape="rect" id="node16" href="$sprite_8c.html#a439e654a6989f8636720228493bec494" title="Set the car speed object upon background move." alt="" coords="601,495,708,521"/>
+<area shape="rect" id="node14" href="$sprite_8c.html#a89def829f3803415e37ef0b7d2ee3e42" title="moves to the next animation on the vector of animations if the last goes back to the beginning" alt="" coords="784,1027,951,1053"/>
+<area shape="rect" id="node15" href="$video__gr_8c.html#ab475fac43cf9f5169fa5def2568477c4" title="Get the max y of the buffer." alt="" coords="824,900,911,927"/>
+<area shape="rect" id="node18" href="$sprite_8c.html#a6b71149ca230bb37dfeac4b528ca0f97" title="Set the car2 speed object upon background move, used when in multiplayer mode." alt="" coords="597,697,712,724"/>
+<area shape="rect" id="node23" href="$sprite_8c.html#adc6632ac401a698b092a1fc146d14603" title="handles every move, animation and collisions of every sprite on game" alt="" coords="363,1001,518,1028"/>
+<area shape="rect" id="node24" href="$sprite_8c.html#a114cb0f8da8e85a0a844de1aa4703a5c" title="updates claw speed and positions upon car moves" alt="" coords="581,1204,728,1231"/>
+<area shape="rect" id="node25" href="$sprite_8c.html#af99ef7d46af49168795a6e79936fb1d5" title="checks collision between a sprite with a square with width x_size and height y_size" alt="" coords="812,1153,923,1180"/>
+<area shape="rect" id="node26" href="$state__machine_8c.html#ac3bf10809f9d3571f5fd04762a0025fd" title="Set game drop state" alt="" coords="597,1001,712,1028"/>
+<area shape="rect" id="node27" href="$state__machine_8c.html#a0f18e11b34c3981fd32e5d04f485b306" title="Set game drop state." alt="" coords="601,1052,709,1079"/>
+<area shape="rect" id="node29" href="$sprite_8c.html#adbe44b60726f0fc325c51a749d3dc257" title="draws every sprite active on the menu screen" alt="" coords="373,140,508,167"/>
+<area shape="rect" id="node30" href="$game_8c.html#a5a193c18ca40e36acc681d65703ff368" title="reset game variavels: clock and score" alt="" coords="395,731,486,757"/>
+<area shape="rect" id="node32" href="$game_8c.html#a16fcf7ea3f61fbe3b5b196fbb5b8e13a" title="function used to send keys byte to the other VM" alt="" coords="382,460,499,487"/>
+<area shape="rect" id="node31" href="$sprite_8c.html#af940981226ddfd194e684b1bc2648c0a" title="goes back to the initial positions and speed" alt="" coords="606,900,703,927"/>
+<area shape="rect" id="node34" href="$sprite_8c.html#ac6bf330546ad3041f28137d976dfa0dd" title="handles every move, animation and collisions of every sprite on game" alt="" coords="375,1273,506,1314"/>
+<area shape="rect" id="node35" href="$sprite_8c.html#a61718c89848354210aa61125d2c1702a" title="updates claw2 speed and positions upon car2 moves, used when in multiplayer mode" alt="" coords="578,1423,731,1449"/>
+<area shape="rect" id="node36" href="$state__machine_8c.html#acea4e97f21b7f738037b74e93aa52509" title="Set the multiplayer catch state" alt="" coords="580,1474,729,1515"/>
+<area shape="rect" id="node37" href="$state__machine_8c.html#ab1bb8759dc7ed51483eae1ff2b0724af" title="Set the multiplayer drop state." alt="" coords="583,1357,726,1398"/>
+</map>

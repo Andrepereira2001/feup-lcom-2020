@@ -1,0 +1,7 @@
+<map id="mouse_event_handler" name="mouse_event_handler">
+<area shape="rect" id="node1" title="make all the changes in the game related to the mouse event received" alt="" coords="5,42,152,69"/>
+<area shape="rect" id="node2" href="$sprite_8c.html#abcc25e0cf7895f641ec155b56877fec6" title="moves to the next animation on the vector of animations if the last goes back to the beginning" alt="" coords="200,5,367,47"/>
+<area shape="rect" id="node3" href="$sprite_8c.html#affcb84d9d3029af3750bc0d1598da0cd" title="moves the cursor sprite upon the move of the mouse and updates positions" alt="" coords="236,71,331,98"/>
+<area shape="rect" id="node4" href="$group__video__gr.html#ga59b8bc184035b459a3b61ade2b835aeb" title="Get the max x of the buffer." alt="" coords="415,46,501,73"/>
+<area shape="rect" id="node5" href="$group__video__gr.html#ga0ed4b076b187d5cc6070df7543855ee3" title="Get the max y of the buffer." alt="" coords="415,97,501,123"/>
+</map>

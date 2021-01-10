@@ -1,0 +1,7 @@
+<map id="kbc_get_event" name="kbc_get_event">
+<area shape="rect" id="node1" title="will generate the key event related to the key pressed" alt="" coords="667,5,772,32"/>
+<area shape="rect" id="node2" href="$state__machine_8h.html#a0ea82436a2c2f51732b15283404d213a" title="validate the interrupt recived from the keyboard" alt="" coords="461,5,619,32"/>
+<area shape="rect" id="node3" href="$group__game.html#ga2ede7a7d641eb07fc9c351b475e23154" title="handle the keyboard interrupt and make all the ncesseary changes" alt="" coords="289,5,413,32"/>
+<area shape="rect" id="node4" href="$group__game.html#ga25300199ba6cf6bfe2f16998384874b7" title="check all th interrupts while the game is running and make changes" alt="" coords="163,5,241,32"/>
+<area shape="rect" id="node5" href="$proj_8c.html#a90aad768b0a0b41e4bcacc566b0cae6e" title="project main loop used to run the programs" alt="" coords="5,5,115,32"/>
+</map>

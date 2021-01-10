@@ -1,0 +1,8 @@
+<map id="rtc_handler" name="rtc_handler">
+<area shape="rect" id="node1" title="handles rtc interrupts" alt="" coords="5,56,92,83"/>
+<area shape="rect" id="node2" href="$group__rtc_vars.html#ga9a01915134a279f2e988fd8c2aac7ac9" title="read date from the rtc registers" alt="" coords="156,5,235,32"/>
+<area shape="rect" id="node5" href="$group__rtc_vars.html#ga71a0905f2ca7d41d094abfaa2a03e7f8" title="reads register C from rtc" alt="" coords="142,56,249,83"/>
+<area shape="rect" id="node6" href="$group__rtc_vars.html#gae3a995f4353506df0a7055684401edef" title="check if is valid read date" alt="" coords="140,107,251,133"/>
+<area shape="rect" id="node3" href="$group__rtc_vars.html#ga300b9c55ded07a40391ec94f6f047065" title="convert given bcd number to decimal number" alt="" coords="299,5,432,32"/>
+<area shape="rect" id="node4" href="$utils_8c.html#a79a031a8611f5b2d6afa4158e92b0fb4" title=" " alt="" coords="320,56,411,83"/>
+</map>
