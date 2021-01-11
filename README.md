@@ -8,4 +8,4 @@ In order to do that we need to program all the periferics used(mouse, keyboard, 
 
 
 ## DISCLAIMER
-Project made with [Matilde Oliveira](https://github.com/maildejoliveir "maildejoliveira")
+Project made with [Matilde Oliveira](https://github.com/maildejoliveira "maildejoliveira")
